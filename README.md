@@ -1,3 +1,5 @@
+[![Fly Deploy](https://github.com/Chriscodinglife/rails_blog_app/actions/workflows/fly-deploy.yml/badge.svg)](https://github.com/Chriscodinglife/rails_blog_app/actions/workflows/fly-deploy.yml)
+
 # Rails Blog App
 
 ## How To Deploy App to Fly
