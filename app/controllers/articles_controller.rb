@@ -15,7 +15,7 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
 
     if @article.save
-      flash.now[:alert] = "You created a new comment!"
+      flash.now.notice = "Article was successfully created"
       redirect_to @article
     else
       render :new, status: :unprocessable_entity
