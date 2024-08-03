@@ -1,4 +1,7 @@
 <h1>New Article</h1>
 <%= link_to "<- Back", root_path %>
+<% if flash[:notice] %>
+  <div class="notice"><%= flash[:notice] %></div>
+<% end %>
 
 <%= render "form", article: @article %>
